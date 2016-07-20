@@ -1,0 +1,78 @@
+.logo{
+	display: block;
+	margin: auto;
+}
+
+ul{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+ 
+}
+
+li:not(.sin) {
+    display: inline;
+    border-right: 1px solid #FAAC58;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+}
+.sin{
+	display: inline-block;
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}
+
+.grupal{
+	display: block;
+	margin: auto;
+}
+
+.perro{
+	border: 2px solid #FAAC58;
+	width: 10%;
+	display: block;
+	margin: auto;	
+}
+
+h1, h2{
+	font-family: 'Pattaya', sans-serif;
+}
+
+p:not(.letras){
+	font-family: 'Mirza', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.imagen{
+	display:inline-block;
+}
+
+.letras{
+	position: relative;
+	text-align: right;
+	top: 210px;
+	font-size:20px;
+	font-weight: bold;
+	color:white;
+	margin-right: 5px;
+	font-family: arial;
+}
+
+/*LA CODER*/
+.maria{
+	border-radius: 100px;
+}
+.porfolio{
+	width:250px;
+	height: 250px;
+}
+#gris>div{
+	background-color: gray;
+	margin-bottom: 10px;
+	color: white;
+	padding:10px;
+	font-family: arial;
+	font-size: 20px;
+}
